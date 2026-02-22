@@ -1,0 +1,55 @@
+*{
+    margin:0px;
+    padding: 0px;
+}
+body.color-page {
+    background-image: url('images/mood.webp');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;                /* ensures it covers full viewport height */
+    width: 100vw; 
+    /* transition: background-image 0.5s ease-in-out; */
+}
+body.color-page:hover {
+    background-image: url('images/merge.jpg');
+}
+
+
+
+/* Color Mood Title */
+.color-page h1 {
+    text-align: center;
+    color: rgb(243, 25, 98);
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bolder;
+    margin-top: 20px;
+}
+.color-page h1:hover {
+    color: rgb(149, 233, 22);
+}
+
+/* Buttons */
+.color {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+    padding: 35px;
+}
+button {
+    padding: 15px 30px;
+    border: none;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    height: 50px;
+    width: 100px;
+    border-radius: 30px;
+}
+.red { background-color: red; }
+.yellow { background-color: gold; color: black; }
+.black { background-color: black; }
+.green { background-color: green; }
+
+
